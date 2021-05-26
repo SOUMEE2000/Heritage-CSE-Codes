@@ -1,3 +1,9 @@
+/****
+
+Program prints out the number of clock cycles required during matrix multiplication
+
+****/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -14,6 +20,8 @@ int main()
             flag=1;
     }
     
+    // 1st matrix
+    
     int **matrixOne = (int **)malloc(r1 * sizeof(int *)); 
     for (i=0; i<r1; i++) 
          matrixOne[i] = (int *)malloc(c1 * sizeof(int)); 
@@ -23,6 +31,8 @@ int main()
       for (j = 0; j < c1; j++) 
          matrixOne[i][j]=rand();
     
+    // 2nd matrix
+    
     int **matrixTwo = (int **)malloc(r2 * sizeof(int *)); 
     for (i=0; i<r2; i++) 
          matrixTwo[i] = (int *)malloc(c2 * sizeof(int)); 
@@ -31,6 +41,8 @@ int main()
     for (i = 0; i <  r2; i++) 
       for (j = 0; j < c2; j++) 
          matrixTwo[i][j]=rand();
+    
+    // Resultant matrix
     
     int **matrixResult = (int **)malloc(r1 * sizeof(int *)); 
     for (i=0; i<r1; i++) 
@@ -43,7 +55,7 @@ int main()
     
     clock_t start, end;
     double cpu_time_used;
-    start = clock();
+    start = clock();                 //calculating CPU clock cycles for matrix multiplication
     for(i=0; i<r1; i++)
     {
         for(j=0; j<c2; j++)
