@@ -1,0 +1,18 @@
+        ORG 2000H
+	MVI A, 80H
+	OUT 83H
+ 	MVI A, 01H
+L1:	OUT 80H
+	NOP
+	NOP
+	NOP
+	NOP
+	NOP
+        NOP
+	NOP
+	NOP
+	NOP
+	NOP
+	RRC
+	JMP L1
+	END 

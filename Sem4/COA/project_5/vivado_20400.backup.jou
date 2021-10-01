@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Tue Sep 28 19:24:42 2021
+# Process ID: 20400
+# Current directory: D:/Sem4/COA/project_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8028 D:\Sem4\COA\project_5\project_5.xpr
+# Log file: D:/Sem4/COA/project_5/vivado.log
+# Journal file: D:/Sem4/COA/project_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Sem4/COA/project_5/project_5.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_simulation
+source Half_Adder_bv_tb.tcl
+close_sim
+launch_simulation
+source Half_Adder_bv_tb.tcl
+add_bp {D:/Sem4/COA/project_5/project_5.srcs/sim_1/new/Half_Adder_bv_tb.vhd} 74
+remove_bps -file {D:/Sem4/COA/project_5/project_5.srcs/sim_1/new/Half_Adder_bv_tb.vhd} -line 74
+close_sim
+launch_simulation
+source Half_Adder_bv_tb.tcl
+close_sim

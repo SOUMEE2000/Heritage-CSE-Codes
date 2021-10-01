@@ -1,0 +1,7 @@
+LINE 13 LOADING 01H TO 3000 AND KEEPING AT IT.
+DB: Data Byte
+2000H is where RAM starts don't access other things
+
+Day1_cut
+
+If first nibble is between A-F put a 0 in front of it

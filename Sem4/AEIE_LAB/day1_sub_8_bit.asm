@@ -1,0 +1,6 @@
+	ORG 2000H
+	MVI A, 97H
+	MVI B, 32H
+	SUB B
+	MOV C, A
+	HLT

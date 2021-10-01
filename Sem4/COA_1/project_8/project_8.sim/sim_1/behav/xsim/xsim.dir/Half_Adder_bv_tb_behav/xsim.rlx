@@ -1,0 +1,12 @@
+
+{ 
+    crc :  1661494741223303052  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 4e2c576e975d40ceb04a062a7dd4718f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Half_Adder_bv_tb_behav xil_defaultlib.Half_Adder_bv_tb" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:41:02" , 
+    linkCmd : "D:\\Xilinx\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/Half_Adder_bv_tb_behav/xsimk.exe\"   \"xsim.dir/Half_Adder_bv_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/Half_Adder_bv_tb_behav/obj/xsim_1.win64.obj\" \"D:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"D:\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
